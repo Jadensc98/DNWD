@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.string :size
       t.string :fit
       t.string :color
-      t.decimal :price
+      t.decimal :price, precision: 5, scale: 2, default: 0
       t.string :description
 
       t.timestamps
