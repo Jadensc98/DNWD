@@ -29,6 +29,7 @@ gem 'devise'
 gem 'redis'
 gem 'braintree'
 gem 'gon'
+gem 'sprockets-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
