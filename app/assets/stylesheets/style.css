@@ -105,7 +105,7 @@ nav {
     display: initial;
     margin: 0;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000000;
     font-size: 1em;
     font-weight: 700;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
@@ -150,7 +150,7 @@ nav ul li {
     padding-left: 0;
     padding-right: 0;
     padding: 10px 0;
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -167,7 +167,7 @@ nav ul li {
 
 
 .menu li ul li:hover {
-    background: #f8f9fa;
+    background: #000000;
 }
 
 /* Background color change on Hover */
@@ -382,7 +382,7 @@ li > a:only-child:after {
 /*--/banner --*/
 
 .main-banner {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(../images/dnwd.png)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -393,7 +393,7 @@ li > a:only-child:after {
 }
 
 .main-banner.inner {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(../images/dnwdd.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -407,12 +407,12 @@ li > a:only-child:after {
 
 .banner-form ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #ccc;
+    color: #0000;
 }
 
 .banner-form ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #ccc;
+    color: #0000;
 }
 
 .banner-form :-ms-input-placeholder {
@@ -433,13 +433,13 @@ li > a:only-child:after {
 .banner-info h3 {
     font-size: 3.5em;
     letter-spacing: 2px;
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
 }
 
 .banner-info p {
-    color: #fff;
+    color: #000000;
     font-size: 0.8em;
     letter-spacing: 2px;
     font-weight: 400;
