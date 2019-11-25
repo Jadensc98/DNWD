@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :categories, only: [:show]
   resources :products, only: [:show, :index]
   root 'storefront#index'
+  get 'about' => 'pages#about'
+  get 'contact' => 'pages#contact'
 
   namespace :admin do
     root to: 'storefront#index'
