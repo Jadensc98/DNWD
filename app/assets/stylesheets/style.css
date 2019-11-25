@@ -9,7 +9,7 @@ html,
 body {
     margin: 0;
     font-size: 100%;
-    background: #fff;
+    background: rgb(100, 100, 100);
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
 }
