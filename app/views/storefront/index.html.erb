@@ -58,16 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <ul class="menu mt-2">
                         <li class="active"><%= link_to "HOME", root_path %></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li>
-                            <!-- First Tier Drop Down -->
-                            <label for="drop-2" class="toggle">More<span class="fa fa-angle-down" aria-hidden="true"></span> </label>
-                            <a href="#">More<span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                            <input type="checkbox" id="drop-2" />
-                            <ul>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </li>
+                        <li><%= link_to "Shop", products_path %></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>

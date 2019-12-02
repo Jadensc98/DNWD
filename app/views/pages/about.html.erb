@@ -42,37 +42,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 
-    <!-- mian-content -->
-    <div class="main-banner inner" id="home">
-        <!-- header -->
-        <header class="header">
-            <div class="container-fluid px-lg-5">
-                <!-- nav -->
-                <nav class="py-4">
-                    <div id="logo">
-                        <h1><%= link_to "DNWD", root_path %></h1>
-                    </div>
+  <!-- mian-content -->
+  <div class="main-banner" id="home">
+      <!-- header -->
+      <header class="header">
+          <div class="container-fluid px-lg-5">
+              <!-- nav -->
+              <nav class="py-4">
+                  <div id="logo">
+                      <h1><%= link_to "DNWD", root_path %></h1>
+                  </div>
 
-                    <label for="drop" class="toggle">Menu</label>
-                    <input type="checkbox" id="drop" />
-                    <ul class="menu mt-2">
-                        <li class="active"><%= link_to "HOME", root_path %></li>
-                        <li class="active"><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li>
-                            <!-- First Tier Drop Down -->
-                            <label for="drop-2" class="toggle">More <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
-                            <a href="#">More <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                            <input type="checkbox" id="drop-2" />
-                            <ul>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="shop.html">Shop Now</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-                <!-- //nav -->
+                  <label for="drop" class="toggle">Menu</label>
+                  <input type="checkbox" id="drop" />
+                  <ul class="menu mt-2">
+                      <li><%= link_to "HOME", root_path %></li>
+                      <li class="active"><a href="about.html">About</a></li>
+                      <li><a href="shop.html">Shop</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+              <!-- //nav -->
             </div>
         </header>
         <!-- //header -->
@@ -237,10 +227,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="row footer-top">
                 <div class="col-lg-4 footer-grid_section_w3layouts">
                     <h2 class="logo-2 mb-lg-4 mb-3">
-                        <a href="index.html"><span class="fa fa-bold" aria-hidden="true"></span>ootie</a>
+                        <a href="index.html">DNWD</a>
                     </h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <h4 class="sub-con-fo ad-info my-4">Catch on Social</h4>
+                    <h4 class="sub-con-fo ad-info my-4">Catch us on Social. How 'bout dat.</h4>
                     <ul class="w3layouts_social_list list-unstyled">
                         <li>
                             <a href="#" class="w3pvt_facebook">
@@ -253,8 +243,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="w3pvt_dribble">
-                                <span class="fa fa-dribbble"></span>
+                            <a href="https://www.instagram.com/distressed_n_welldressed/" class="w3pvt_dribble">
+                                <span class="fa fa-instagram"></span>
                             </a>
                         </li>
                         <li class="ml-2">
@@ -266,11 +256,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-lg-8 footer-right">
                     <div class="w3layouts-news-letter">
-                        <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Newsletter</h3>
+                        <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Your Lame Suggestions</h3>
 
-                        <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                        <p>By submitting your own suggestions, they will be sent to us and immediately ignored. Submit at your own risk. </p>
                         <form action="#" method="post" class="w3layouts-newsletter">
-                            <input type="email" name="Email" placeholder="Enter your email..." required="">
+                            <input type="email" name="Email" placeholder="Suggestion..." required="">
                             <button class="btn1"><span class="fa fa-paper-plane-o" aria-hidden="true"></span></button>
 
                         </form>
@@ -285,41 +275,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <li class="mt-3">
                                     <a href="about.html">About Us</a>
                                 </li>
-                                <li class="mt-3">
-                                    <a href="#">Gallery</a>
-                                </li>
-                                <li class="mt-3">
-                                    <a href="#">Services</a>
-                                </li>
-                                <li class="mt-3">
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
                             </ul>
-                        </div>
-                        <div class="col-md-4 footer-grid_section_w3layouts">
-                            <!-- social icons -->
-                            <div class="agileinfo_social_icons">
-                                <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Customer Service</h3>
-                                <ul class="list-unstyled w3layouts-icons">
-
-                                    <li>
-                                        <a href="#">About Us</a>
-                                    </li>
-                                    <li class="mt-3">
-                                        <a href="#">Delivery & Returns</a>
-                                    </li>
-                                    <li class="mt-3">
-                                        <a href="#">Waranty</a>
-                                    </li>
-                                    <li class="mt-3">
-                                        <a href="#">Terms & Condition</a>
-                                    </li>
-                                    <li class="mt-3">
-                                        <a href="#">Privacy Plolicy</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- social icons -->
                         </div>
                         <div class="col-md-4 footer-grid_section_w3layouts my-md-0 my-5">
                             <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3">Contact Info</h3>
@@ -342,7 +298,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                     </div>
                     <div class="cpy-right text-left row">
-                        <p class="col-md-10">© 2019 Bootie. All rights reserved | Design by
+                        <p class="col-md-10">© 2019 DNWD. All rights reserved | Design by
                             <a href="http://w3layouts.com"> W3layouts.</a>
                         </p>
                         <!-- move top icon -->
